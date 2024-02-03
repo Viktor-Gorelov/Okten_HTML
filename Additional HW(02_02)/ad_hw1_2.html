@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .center{
+        height: 800px;
+        width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+    }
+    .elem{
+        height: 300px;
+        width: 500px;
+        border-radius: 10px;
+        margin: 15px 15px 15px 15px;
+
+    }
+    p{
+        font-family: 'Libre Franklin', sans-serif;
+        margin: 50px 0px 5px 40px;
+        font-size: 20px;
+    }
+    .title{
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: bolder;
+        margin: 0px 0px 5px 40px;
+        font-size: 40px;
+    }
+    .add{
+        font-weight: bolder;
+        margin: 80px 250px 50px 40px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: black;
+        display: flex;
+
+    }
+    .video{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin: auto;
+
+    }
+</style>
+<body>
+<div class="main">
+    <div class="center">
+        <div class="elem" style="background-color:#699BF7">
+            <p>Tutorial video</p>
+            <p class="title">Dev Mode tutorial</p>
+            <div class="add">
+                <p class="video"><u>Watch the video</u></p>
+            </div>
+        </div>
+        <div class="elem" style="background-color:#C7B9FF" >
+            <p>Blog post</p>
+            <p class="title" style="margin-right: 30px">Making Figma better for developers</p>
+            <div class="add" style="margin:30px 280px 30px 40px">
+                <p class="video"><u>Go to the blog</u></p>
+            </div>
+        </div>
+        <div class="elem" style="background-color:#FFC700">
+            <p>Help center</p>
+            <p class="title">Guide to Dev Mode</p>
+            <div class="add">
+                <p class="video"><u>Read the article</u></p>
+            </div>
+        </div>
+        <div class="elem" style="background-color:#FF8577" >
+            <p>Blog post</p>
+            <p class="title" style="margin-right: 30px">Prototype with variables</p>
+            <div class="add" style="margin:30px 220px 30px 40px">
+                <p class="video"><u>Go to the playground</u></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
