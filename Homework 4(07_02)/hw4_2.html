@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    body{
+        height: 100vh;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .center{
+        height: 70vh;
+        width: 28vw;
+        border: 1px solid grey;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .center .image{
+        height: 20%;
+        width: 60%;
+        background-size: cover;
+    }
+    .center #user{
+        height: 6vh;
+        width: 21vw;
+        margin-top: 60px;
+        font-size: 20px;
+        text-overflow: ellipsis;
+        border: 1px solid grey;
+        border-radius: 3px;
+        background-color: rgba(180, 175, 175, 0.11);
+    }
+    .center #password{
+        margin-top: 10px;
+        height: 6vh;
+        width: 21vw;
+        font-size: 20px;
+        text-overflow: ellipsis;
+        border: 1px solid grey;
+        border-radius: 3px;
+        background-color: rgba(180, 175, 175, 0.11);
+    }
+    .center input[type="submit"]{
+        margin: 20px 0 20px 0;
+        height: 5vh;
+        width: 21vw;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        border: 1px solid steelblue;
+        border-radius: 10px;
+        background-color: #43a7e5;
+    }
+    .center h3{
+        color: grey;
+    }
+    .center .facebook{
+        font-size: 22px;
+        font-weight: bold;
+        color: #375184;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .center .facebook .logo{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    .center .forget{
+        font-size: 18px;
+        text-decoration: none;
+        color: #0a3e6f;
+        font-weight: bold;
+    }
+    footer{
+        height: 10vh;
+        width: 28vw;
+        font-size: 22px;
+        font-weight: bold;
+        border: 1px solid grey;
+        margin: 0 0 80px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    footer a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: dodgerblue;
+    }
+</style>
+<body>
+<div class="center">
+    <img class="image" src="Instagram_logo.png" alt="Instagram_logo">
+    <input type="text" name="user_name" id="user" placeholder="Номер телефону, ім'я користувача або електронна пошта" required>
+    <input type="password" name="password" id="password" placeholder="Пароль" required>
+    <input type="submit" value="Увійти">
+    <h3>АБО</h3>
+    <div class="facebook">
+        <img class="logo" alt="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD9klEQVR4nO3ZS08TURQHcLbce7two2s/A2sjjz5pobS8RcQFGzcmvEtpKeUN5a2CIAqK4sq1ujB+A/UD+EYNJkYSMSZGyDFnZmg705m2cxiJi57kptvff3rPvafToqJCFapQhfovy9a27bVd3v5ka9sGW9sDsF26L6/WLbC13gPbxbvK2gTRsgGi5Q6IC7hug2heB9F8C0QTrjUQjasgGm/Kq2EFRMMyiPob8qq7DqLuGojaJWUtgggugAjOgwjMg6iZ3WE1CQ8hwMOdE8cHNfjAHAYAUZP4SPkGsuNbTgo/A9w/A4QAFuEbjo/n/gQhwEnjA8Z4Xj1NCbClwW+m8EdwFX5Ng1/R4BGOa0mG+qeB+yaA+8aB+8aA+0ZB+MZA+CYVfCKJ59VThABW4Os1+OACnKmfgb61p/D85Vv4/O0H7O3/ktaHr3vw6vUX4JXxDDyvmqQEsB5fcmUV3u/uQbZi7lgGnhbACN9MwNctwen6WXiXA58MoMHjViMEQPyGBr+uwa9q8Msp/FGz4grMQdfKY8inmCuWhp9I9on5AFbh8aTxT8OzF28ysLvf9+Hc1VXgnpj05BHPPEMZeO4dMx9AF99kAl97dFQuSoivez8zArQnHslQPJFU20aN595RQgCL8Ni8eEz+/nOQEeBsMzbrVE48ryQFsAYvBagc0d3vNk9cCZCOH9fgR6RlPoCFcw2vHDZo2MG88NwzTAlAx8uYURnhHQHmHtIP4IxKIZgrCswZkRbHJtbguSdOCHCMuQbRlIqtP5GwWjx3D1EC0Icyoz2fq5piW6kAaXhagJxDWXqzpk+Uc4Z7PleVtM/LaBU+BtwVowTINhoY46UAnrhp/MHhIZzyRHTx3DVICEDB18izPPcOyzercrsWOyO66OKKfmD2MDA7foaAOwZ08dwVJQYg4PVmeTxt9IrZw0rDDhs+ee6MAndGCAFUF5QWL19Q6l9Qs6lfUJrRAI9H/QD9Cj6uwQ+q8Nw5QAmgM5QR8HgnMIdRgFBuPG4rByWARXica5hjwCBAX1547ghTAujPNYZ4Ca4/lDF7lgDu3Hhu7ycEsAiPcw02q26Ait7seGxy5YQiBMjvfU0SnmUow2bVD9CTPCbV+LAKzyr6CAHM4KuyT5SGAcq788ITA1iDlwOEDAJ0GeMrUnhW3ksIELAGjxcUNqtugLKuvPCsvIcSQJ5rjG7X9FceybdrKnzqdpW3Qo8EwW2DT56VdcpbKO2kUeN7k3hW1k0MYAFeb66Rb9eIMb5cjcdvynyAfPHe4+NZDjwrpQTwz+xYinfS8ay0w/wfHPi3Dq9O7PxbfEiDR3g6vlPCs/MdbtMBClWoQhWq6CTqL+5E/imf6u7yAAAAAElFTkSuQmCC">
+        <p>Увійти через Facebook</p>
+    </div>
+    <a class="forget" href="#">Забули пароль?</a>
+</div>
+<footer>
+    <p>Не маєте облікового запису?</p>
+    <a href="#">Зареєструйтеся</a>
+</footer>
+</body>
+</html>

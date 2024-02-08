@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+  body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+  }
+  .section-1{
+    height: 100vh;
+    background-image: url("image 4.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-1 .center{
+    height: 40vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-1 .center .left-image{
+    height: 40vh;
+    width: 35vw;
+    background-size: cover;
+    background-image: url("image 3.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-1 .center .text{
+    height: 40vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #FAF9F7;
+  }
+  .section-1 .center .text .title{
+    margin: 40px 0 0 0;
+    font-size: 45px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .section-1 .center .text p{
+    font-size: 25px;
+  }
+  .section-1 .center .text button{
+    font-size: 30px;
+    font-family: 'KoHo', sans-serif;
+    margin-bottom: 60px;
+    height: 8vh;
+    width: 28vw;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .section-2{
+    height: 100vh;
+    background-image: url("Rectangle 4.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 .center-2{
+    height: 90vh;
+    width: 63vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-2 .center-2 .video{
+    height: 60vh;
+    width: 50vw;
+  }
+  .section-2 .center-2 .text{
+    font-size: 35px;
+    height: 20vh;
+    width: 50vw;
+  }
+  .section-3{
+    height: 100vh;
+    background-image: url("Rectangle 4.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3 .center{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .section-3 .center .elem{
+    height: 70vh;
+    width: 30vw;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 24vh;
+    width: 90%;
+  }
+  .section-3 .center .elem p{
+    margin: 0;
+    font-size: 35px;
+  }
+  .section-3 .center .elem .title{
+    margin-bottom: 15px;
+  }
+  .section-3 .center .elem .price{
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+  .section-3 .center .elem button{
+    font-size: 35px;
+    font-family: 'KoHo', sans-serif;
+    color: #6B6666;
+    margin-bottom: 80px;
+    height: 76px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+</style>
+<body>
+<section class="section-1">
+  <div class="center">
+    <div class="left-image"></div>
+    <div class="text">
+      <p class="title">Lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <button>Button</button>
+    </div>
+  </div>
+</section>
+<section class="section-2">
+  <div class="center-2">
+    <iframe class="video" src="https://www.youtube.com/embed/Z_QbY2XUAi8?si=J1wjW1VJvld-sHEw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="text">
+      <p>ABSTRACT NATURE PHOTOGRAPHY <br>
+        Abstract nature photography: pushing myself creatively.  In this video, I go into the field to try to create semi-abstract or abstract nature photos, limiting myself to only one prime lens.</p>
+    </div>
+  </div>
+</section>
+<section class="section-3">
+  <div class="center">
+    <div class="elem">
+      <img class="image" src="elem-1.png" alt="mountain_1">
+      <p class="title">LOREM</p>
+      <p class="info">Lorem ipsum dolor sit amet</p>
+      <p class="price">50$</p>
+      <button>Button</button>
+    </div>
+    <div class="elem">
+      <img class="image" src="elem-2.png" alt="mountain_2">
+      <p class="title">LOREM</p>
+      <p class="info">Lorem ipsum dolor sit amet</p>
+      <p class="price">70$</p>
+      <button>Button</button>
+    </div>
+    <div class="elem">
+      <img class="image" src="elem-3.png" alt="mountain_3">
+      <p class="title">LOREM</p>
+      <p class="info">Lorem ipsum dolor sit amet</p>
+      <p class="price">80$</p>
+      <button>Button</button>
+    </div>
+  </div>
+</section>
+</body>
+</html>
