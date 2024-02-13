@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-size: 36px;
+}
+header{
+    height: 16vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.elem_1{
+    height: 78vh;
+    width: 72vw;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 2vh 2vh;
+}
+.elem_2{
+    height: 78vh;
+    width: 28vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2vh 2vh 2vh;
+}

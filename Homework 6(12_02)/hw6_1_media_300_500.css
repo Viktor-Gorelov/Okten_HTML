@@ -1,0 +1,39 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    body{
+        margin: 0;
+        font-size: 26px;
+    }
+    header{
+        height: 10vh;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2vh 2vw 2vh 2vw;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    .elem_1{
+        height: 72vh;
+        width: 96vw;
+        background-color: yellowgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2vw 0 2vw;
+    }
+    .elem_2{
+        height: 10vh;
+        width: 96vw;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2vh 2vw 0 2vw;
+    }
+}

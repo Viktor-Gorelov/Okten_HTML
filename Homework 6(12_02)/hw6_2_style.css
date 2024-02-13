@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-size: 36px;
+}
+header{
+    height: 10vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+.main{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1vh;
+}
+section{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    height: 60vh;
+    width: 83vw;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw 1vh 0;
+}
+.center{
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 1vw 0 0;
+}
+.elem_1{
+    height: 28vh;
+    width: 27vw;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw 0 0;
+}
+.elem_2{
+    height: 28vh;
+    width: 27vw;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elem_3{
+    height: 28vh;
+    width: 27vw;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 1vw;
+}
+aside{
+    height: 87vh;
+    width: 28vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    body{
+        margin: 0;
+        font-size: 26px;
+    }
+    header{
+        height: 16vh;
+        width: 97vw;
+        margin-left: 1.5vw;
+        margin-bottom: 0;
+    }
+    .main{
+        height: 83vh;
+        flex-direction: column;
+        margin: 0;
+    }
+    section{
+        height: 60vh;
+        width: 100vw;
+    }
+    .head{
+        height: 48vh;
+        width: 97vw;
+        margin: 0 1vw 0 1vw;
+    }
+    .center{
+        margin: 1vh 0 1vh 0;
+    }
+    .elem_1{
+        height: 22vh;
+        width: 32vw;
+    }
+    .elem_2{
+        height: 22vh;
+        width: 32vw;
+    }
+    .elem_3{
+        height: 22vh;
+        width: 31vw;
+    }
+    aside{
+        height: 21vh;
+        width: 97vw;
+    }
+}
